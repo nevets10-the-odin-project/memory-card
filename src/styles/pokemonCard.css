@@ -1,0 +1,15 @@
+body {
+	background-color: gray;
+}
+
+.pokemon-card {
+	border: 0.5rem solid yellow;
+	border-radius: 10px;
+	padding: 0.5rem;
+}
+
+.pokemon-img {
+	background-color: whitesmoke;
+	border: 0.5rem solid yellow;
+	width: 10rem;
+}

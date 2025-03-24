@@ -1,3 +1,4 @@
+import "../styles/pokemonCard.css";
 import React, { useEffect, useState } from "react";
 
 export default function PokemonCard({ pokemon, color }) {
@@ -10,8 +11,8 @@ export default function PokemonCard({ pokemon, color }) {
 	}, [pokemon]);
 
 	return (
-		<div style={{ backgroundColor: color }}>
-			<img src={imgSrc} alt={pokemon} />
+		<div style={{ backgroundColor: color }} className="pokemon-card">
+			<img src={imgSrc} alt={pokemon} className="pokemon-img" />
 			<h1>{pokemon}</h1>
 		</div>
 	);
