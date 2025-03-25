@@ -1,7 +1,7 @@
 import "../styles/pokemonCard.css";
 import React, { useEffect, useState } from "react";
 
-export default function PokemonCard({ pokemon, type }) {
+export default function PokemonCard({ pokemon, type, handleClick }) {
 	const [imgSrc, setImgSrc] = useState(" ");
 
 	useEffect(() => {
@@ -11,7 +11,7 @@ export default function PokemonCard({ pokemon, type }) {
 	}, [pokemon]);
 
 	return (
-		<div className={type + " pokemon-card"}>
+		<div className={type + " pokemon-card"} onClick={handleClick}>
 			<img src={imgSrc} alt={pokemon} className="pokemon-img" />
 			<h1>{pokemon}</h1>
 		</div>
