@@ -7,6 +7,7 @@ import Beedrill from "./components/Beedrill";
 import Pidgey from "./components/Pidgey";
 import Ekans from "./components/Ekans";
 import Diglett from "./components/Diglett";
+import Mankey from "./components/Mankey";
 
 function App() {
 	const [score, setScore] = useState(0);
@@ -21,6 +22,7 @@ function App() {
 			<Pidgey />
 			<Ekans />
 			<Diglett />
+			<Mankey />
 		</div>
 	);
 }
