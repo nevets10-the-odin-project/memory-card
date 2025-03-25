@@ -1,3 +1,7 @@
+html {
+	--electric: rgb(250, 192, 0);
+}
+
 body {
 	background-color: gray;
 }
@@ -12,4 +16,8 @@ body {
 	background-color: whitesmoke;
 	border: 0.5rem solid yellow;
 	width: 10rem;
+}
+
+.electric {
+	background-color: var(--electric);
 }
