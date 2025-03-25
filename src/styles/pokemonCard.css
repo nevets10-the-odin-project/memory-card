@@ -23,6 +23,15 @@ html {
 	padding: 0.5rem;
 }
 
+.pokemon-card:hover {
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+.pokemon-card:active {
+	opacity: 0.5;
+}
+
 .pokemon-img {
 	background-color: whitesmoke;
 	border: 0.5rem solid yellow;
