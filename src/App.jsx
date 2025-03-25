@@ -8,6 +8,7 @@ import Pidgey from "./components/Pidgey";
 import Ekans from "./components/Ekans";
 import Diglett from "./components/Diglett";
 import Mankey from "./components/Mankey";
+import Abra from "./components/Abra";
 
 function App() {
 	const [score, setScore] = useState(0);
@@ -23,6 +24,7 @@ function App() {
 			<Ekans />
 			<Diglett />
 			<Mankey />
+			<Abra />
 		</div>
 	);
 }
