@@ -2,6 +2,7 @@ html {
 	--electric: rgb(250, 192, 0);
 	--water: rgb(41, 128, 239);
 	--fire: rgb(230, 40, 41);
+	--bug: rgb(145, 161, 25);
 }
 
 body {
@@ -36,4 +37,8 @@ body {
 
 .fire {
 	background-color: var(--fire);
+}
+
+.bug {
+	background-color: var(--bug);
 }
