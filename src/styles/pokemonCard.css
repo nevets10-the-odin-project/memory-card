@@ -1,6 +1,7 @@
 html {
 	--electric: rgb(250, 192, 0);
 	--water: rgb(41, 128, 239);
+	--fire: rgb(230, 40, 41);
 }
 
 body {
@@ -31,4 +32,8 @@ body {
 .water {
 	background-color: var(--water);
 	color: white;
+}
+
+.fire {
+	background-color: var(--fire);
 }

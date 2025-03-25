@@ -2,6 +2,7 @@ import { useState } from "react";
 import "./App.css";
 import Pikachu from "./components/Pikachu";
 import Squirtle from "./components/Squirtle";
+import Charizard from "./components/Charizard";
 
 function App() {
 	const [score, setScore] = useState(0);
@@ -11,6 +12,7 @@ function App() {
 		<div className="deck">
 			<Pikachu />
 			<Squirtle />
+			<Charizard />
 		</div>
 	);
 }
