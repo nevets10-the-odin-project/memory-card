@@ -11,10 +11,6 @@ html {
 	--ghost: rgb(112, 65, 112);
 }
 
-body {
-	background-color: gray;
-}
-
 .deck {
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));

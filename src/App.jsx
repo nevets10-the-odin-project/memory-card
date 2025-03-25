@@ -1,5 +1,5 @@
-import { useState } from "react";
 import "./App.css";
+import { useState } from "react";
 import { pokemon } from "./data";
 import PokemonCard from "./components/PokemonCard";
 
@@ -9,6 +9,13 @@ function App() {
 
 	return (
 		<>
+			<div className="header">
+				<h1>Pokemon Memory Game!</h1>
+				<p>
+					Get points by clicking on a pokemon card, but don't click on any more than
+					once!
+				</p>
+			</div>
 			<div className="deck">
 				{shuffle(pokemon).map((p) => (
 					<PokemonCard id={p.id} pokemon={p.name} type={p.type} />
