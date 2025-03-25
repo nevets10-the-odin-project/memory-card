@@ -5,6 +5,7 @@ import Squirtle from "./components/Squirtle";
 import Charizard from "./components/Charizard";
 import Beedrill from "./components/Beedrill";
 import Pidgey from "./components/Pidgey";
+import Ekans from "./components/Ekans";
 
 function App() {
 	const [score, setScore] = useState(0);
@@ -17,6 +18,7 @@ function App() {
 			<Charizard />
 			<Beedrill />
 			<Pidgey />
+			<Ekans />
 		</div>
 	);
 }

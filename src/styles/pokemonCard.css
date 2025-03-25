@@ -4,6 +4,7 @@ html {
 	--fire: rgb(230, 40, 41);
 	--bug: rgb(145, 161, 25);
 	--normal: rgb(159, 161, 159);
+	--poison: rgb(145, 65, 203);
 }
 
 body {
@@ -46,4 +47,9 @@ body {
 
 .normal {
 	background-color: var(--normal);
+}
+
+.poison {
+	background-color: var(--poison);
+	color: white;
 }
