@@ -2,5 +2,5 @@ import React from "react";
 import PokemonCard from "./PokemonCard";
 
 export default function Pikachu() {
-	return <PokemonCard pokemon={"pikachu"} type={"electric"} />;
+	return <PokemonCard pokemon={"Pikachu"} type={"electric"} />;
 }
