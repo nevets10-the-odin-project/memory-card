@@ -36,6 +36,7 @@ html {
 	background-color: whitesmoke;
 	border: 0.5rem solid yellow;
 	width: 10rem;
+	filter: drop-shadow(5px 5px 5px #000000);
 }
 
 .electric {
