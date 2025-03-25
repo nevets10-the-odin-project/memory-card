@@ -8,6 +8,7 @@ html {
 	--ground: rgb(145, 81, 33);
 	--fighting: rgb(255, 128, 0);
 	--psychic: rgb(239, 65, 121);
+	--ghost: rgb(112, 65, 112);
 }
 
 body {
@@ -69,4 +70,9 @@ body {
 
 .psychic {
 	background-color: var(--psychic);
+}
+
+.ghost {
+	background-color: var(--ghost);
+	color: white;
 }

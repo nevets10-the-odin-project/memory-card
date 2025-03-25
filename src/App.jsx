@@ -9,6 +9,7 @@ import Ekans from "./components/Ekans";
 import Diglett from "./components/Diglett";
 import Mankey from "./components/Mankey";
 import Abra from "./components/Abra";
+import Gengar from "./components/Gengar";
 
 function App() {
 	const [score, setScore] = useState(0);
@@ -25,6 +26,7 @@ function App() {
 			<Diglett />
 			<Mankey />
 			<Abra />
+			<Gengar />
 		</div>
 	);
 }
