@@ -10,11 +10,17 @@ function App() {
 	return (
 		<>
 			<div className="header">
-				<h1>Pokemon Memory Game!</h1>
-				<p>
-					Get points by clicking on a pokemon card, but don't click on any more than
-					once!
-				</p>
+				<div>
+					<h1>Pokemon Memory Game!</h1>
+					<p>
+						Get points by clicking on a pokemon card, but don't click on any more than
+						once!
+					</p>
+				</div>
+				<div className="score">
+					<p>Score: {score}</p>
+					<p>High Score: {highScore}</p>
+				</div>
 			</div>
 			<div className="deck">
 				{shuffle(pokemon).map((p) => (
