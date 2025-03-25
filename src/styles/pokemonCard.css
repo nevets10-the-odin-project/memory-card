@@ -5,6 +5,7 @@ html {
 	--bug: rgb(145, 161, 25);
 	--normal: rgb(159, 161, 159);
 	--poison: rgb(145, 65, 203);
+	--ground: rgb(145, 81, 33);
 }
 
 body {
@@ -12,7 +13,8 @@ body {
 }
 
 .deck {
-	display: flex;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 	gap: 1rem;
 }
 
@@ -51,5 +53,10 @@ body {
 
 .poison {
 	background-color: var(--poison);
+	color: white;
+}
+
+.ground {
+	background-color: var(--ground);
 	color: white;
 }

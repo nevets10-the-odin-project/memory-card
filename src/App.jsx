@@ -6,6 +6,7 @@ import Charizard from "./components/Charizard";
 import Beedrill from "./components/Beedrill";
 import Pidgey from "./components/Pidgey";
 import Ekans from "./components/Ekans";
+import Diglett from "./components/Diglett";
 
 function App() {
 	const [score, setScore] = useState(0);
@@ -19,6 +20,7 @@ function App() {
 			<Beedrill />
 			<Pidgey />
 			<Ekans />
+			<Diglett />
 		</div>
 	);
 }
