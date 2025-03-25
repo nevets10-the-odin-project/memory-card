@@ -3,6 +3,7 @@ html {
 	--water: rgb(41, 128, 239);
 	--fire: rgb(230, 40, 41);
 	--bug: rgb(145, 161, 25);
+	--normal: rgb(159, 161, 159);
 }
 
 body {
@@ -41,4 +42,8 @@ body {
 
 .bug {
 	background-color: var(--bug);
+}
+
+.normal {
+	background-color: var(--normal);
 }

@@ -4,6 +4,7 @@ import Pikachu from "./components/Pikachu";
 import Squirtle from "./components/Squirtle";
 import Charizard from "./components/Charizard";
 import Beedrill from "./components/Beedrill";
+import Pidgey from "./components/Pidgey";
 
 function App() {
 	const [score, setScore] = useState(0);
@@ -15,6 +16,7 @@ function App() {
 			<Squirtle />
 			<Charizard />
 			<Beedrill />
+			<Pidgey />
 		</div>
 	);
 }
